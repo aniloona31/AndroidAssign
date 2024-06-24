@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/linearListFragment">
+    <fragment
+        android:id="@+id/linearListFragment"
+        android:name="com.example.assignmentold.Fragments.LinearListFragment"
+        android:label="fragment_linear_list"
+        tools:layout="@layout/fragment_linear_list" />
+    <fragment
+        android:id="@+id/gridListFragment"
+        android:name="com.example.assignmentold.Fragments.GridListFragment"
+        android:label="fragment_grid_list"
+        tools:layout="@layout/fragment_grid_list" />
+</navigation>

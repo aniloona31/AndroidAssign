@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AssignmentOld" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="cornerRadius">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="activeButton">
+        <item name="backgroundColor">@color/navButtonSelected</item>
+    </style>
+
+    <style name="inactiveButton">
+        <item name="backgroundColor">@color/navButtonNotSelected</item>
+    </style>
+</resources>
